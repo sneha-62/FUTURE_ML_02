@@ -8,53 +8,81 @@ Build a Machine Learning model that automatically classifies customer support ti
 2. Objective
    
 Classify support tickets into predefined categories
+
 Apply NLP preprocessing techniques
+
 Train a machine learning model
+
 Evaluate model performance using metrics
+
 Assign priority levels based on ticket content
 
 3. Technologies Used
    
 Python
+
 Pandas
+
 NLTK
+
 Scikit-learn
+
 TF-IDF Vectorization
+
 Logistic Regression
 
 4. Project Workflow
    
 Data Preprocessing
+
 Lowercasing
+
 Removing punctuation and numbers
+
 Removing stopwords
+
 Feature Engineering
+
 TF-IDF Vectorization
+
 Model Training
+
 Train-Test Split (80-20)
+
 Logistic Regression
+
 Model Evaluation
+
 Accuracy Score
+
 Classification Report
+
 Confusion Matrix Visualization
 
 5. Model Performance
    
 Accuracy: 84.5%
+
 Strong precision and recall across major ticket categories
 
 6. Priority Assignment Logic
    
 Rule-based priority assignment:
+
 High → contains words like "urgent", "immediately", "asap"
+
 Medium → contains words like "error", "issue"
+
 Low → general requests
 
 7. Business Insights
    
 Automatically routes tickets to correct departments
+
 Assigns priority levels
+
 Reduces manual effort
+
 Improves response time in IT support operations
 
 8. Conclusion
