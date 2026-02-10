@@ -1,17 +1,17 @@
 # FUTURE_ML_02
 Machine Learning project that classifies customer support tickets using NLP techniques(TF -IDF) and Logistic Regression,achieving 84.5% accuracy with automated priority assignment logic
 
-1. Problem Statement
+1. Problem Statement :
 Build a Machine Learning model that automatically classifies customer support tickets into categories (Hardware, Access, Miscellaneous, etc.) and assigns priority levels (High / Medium / Low) using NLP techniques.
 
-2. Objective
+2. Objective :
 Classify support tickets into predefined categories
 Apply NLP preprocessing techniques
 Train a machine learning model
 Evaluate model performance using metrics
 Assign priority levels based on ticket content
 
-3. Technologies Used
+3. Technologies Used :
 Python
 Pandas
 NLTK
@@ -19,7 +19,7 @@ Scikit-learn
 TF-IDF Vectorization
 Logistic Regression
 
-4. Project Workflow
+4. Project Workflow :
 Data Preprocessing
 Lowercasing
 Removing punctuation and numbers
@@ -34,20 +34,21 @@ Accuracy Score
 Classification Report
 Confusion Matrix Visualization
 
-5. Model Performance
+5. Model Performance :
 Accuracy: 84.5%
 Strong precision and recall across major ticket categories
 
-6. Priority Assignment Logic
+6. Priority Assignment Logic :
 Rule-based priority assignment:
 High → contains words like "urgent", "immediately", "asap"
 Medium → contains words like "error", "issue"
 Low → general requests
 
-7. Business Insights
+7. Business Insights :
 Automatically routes tickets to correct departments
 Assigns priority levels
 Reduces manual effort
 Improves response time in IT support operations
-9. Conclusion
+
+8. Conclusion :
 This project successfully builds an NLP-based Support Ticket Classification system using TF-IDF and Logistic Regression. The model achieves 84.5% accuracy and demonstrates practical business value by automating ticket categorization and prioritization.
