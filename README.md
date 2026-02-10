@@ -1,5 +1,4 @@
 # FUTURE_ML_02
-Task 2-Support Ticket Classification and assign priority levels.
 
 1. Problem Statement
    
